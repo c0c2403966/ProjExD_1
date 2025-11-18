@@ -22,6 +22,7 @@ def main():
         x = tmr #5
         screen.blit(bg_img, [-x, 0]) #5
         screen.blit(bg_img2, [-x+1600, 0]) #8
+        screen.blit(bg_img, [-x+3200, 0]) #9
         screen.blit(kk_img, [300, 200]) #4
         pg.display.update()
         tmr += 1        
